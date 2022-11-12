@@ -30,6 +30,7 @@ public class AuthenticationToken {
 	@OneToOne(targetEntity = User.class,fetch = FetchType.EAGER)
 	@JoinColumn(name = "user_id",nullable = false)
 	private User user;
+	private String tnxId;
 	
 	public AuthenticationToken() {
 		// TODO Auto-generated constructor stub
