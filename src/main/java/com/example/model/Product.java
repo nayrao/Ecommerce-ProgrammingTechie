@@ -27,6 +27,8 @@ public class Product {
 	privat String toDate;
     private String sample;
 	private String city;
+	private String gender;
+
     
     // Many to One Mapping
     
