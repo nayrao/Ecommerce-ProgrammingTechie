@@ -24,6 +24,7 @@ public class Product {
 	private double price;
     @NotNull
 	private String description;
+	privat String toDate;
     
     
     // Many to One Mapping
