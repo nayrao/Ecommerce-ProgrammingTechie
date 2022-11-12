@@ -9,7 +9,8 @@ public class CartDto {
 	@NotNull
 	private Integer quantity;
 	private Integer amount;
-	
+	private String village;
+
 	public CartDto() {
 		// TODO Auto-generated constructor stub
 	}

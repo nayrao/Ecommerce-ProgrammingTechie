@@ -18,6 +18,8 @@ public class ProductDto {
 	@NotNull
 	private Integer categoryId;
 	private String productName;
+	private String chandalur;
+
 	
 	public Integer getId() {
 		return id;
