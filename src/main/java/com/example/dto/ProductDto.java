@@ -17,6 +17,7 @@ public class ProductDto {
 	private String description;
 	@NotNull
 	private Integer categoryId;
+	private String chandalur;
 	
 	public Integer getId() {
 		return id;
