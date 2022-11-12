@@ -23,6 +23,7 @@ public class User {
 	private String email;
 	@Column(name = "password")
 	private String password;
+	private String phoneNumber;
 	public Integer getId() {
 		return id;
 	}
