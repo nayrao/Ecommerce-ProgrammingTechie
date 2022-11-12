@@ -25,7 +25,7 @@ public class Product {
     @NotNull
 	private String description;
 	privat String toDate;
-    
+    private String sample;
     
     // Many to One Mapping
     
