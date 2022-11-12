@@ -8,6 +8,7 @@ public class CartDto {
 	private Integer productId;
 	@NotNull
 	private Integer quantity;
+	private Integer amount;
 	
 	public CartDto() {
 		// TODO Auto-generated constructor stub
